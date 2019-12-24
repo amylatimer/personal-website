@@ -1,0 +1,49 @@
+// Global Styles
+
+/* --- Style Reset ---*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+/* --- Import Fonts ---*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+@font-face {
+  font-family: lato-regular;
+  src: url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+}
+
+@font-face {
+  font-family: lato-bold-700;
+  src: url("https://fonts.googleapis.com/css?family=Lato:700&display=swap");
+}
+
+@font-face {
+  font-family: lato-bold-900;
+  src: url("https://fonts.googleapis.com/css?family=Lato:900&display=swap");
+}
+
+/* --- Global Variables ---*/
+
+$tablet-min-size: 768px;
+$desk-min-size: 1440px;
+
+/* --- Global Mixins ---*/
+
+@mixin tablet-view {
+  @media (min-width: $tablet-min-size) {
+    @content;
+  }
+}
+
+@mixin desk-view {
+  @media (min-width: $desk-min-size) {
+    @content;
+  }
+}
+
+/* --- Global Colors ---*/
+$brand: pink;

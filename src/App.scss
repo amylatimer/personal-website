@@ -1,0 +1,55 @@
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #09d3ac;
+// }
+
+@import "./styles/base.scss";
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include tablet-view {
+    flex-wrap: nowrap;
+  }
+}
+
+// .info {
+//   position: fixed;
+//   left: 0px;
+//   top: 0px;
+//   right: 552px;
+//   bottom: 0px;
+// }
+
+.project-container {
+  //width: 100vw;
+
+  @include tablet-view {
+    width: 60vw;
+    position: static;
+    overflow: visible;
+    width: 60%;
+    //max-width: 1200px;
+    //margin-left: 40%;
+    float: none;
+  }
+}

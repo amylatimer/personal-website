@@ -9,14 +9,25 @@
   height: 100vh;
 
   @include tablet-view {
-    width: 40vw;
+    width: 40%;
   }
   &__container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     //background-color: #efefef;
+
+    @include tablet-view {
+      position: fixed;
+
+      width: 40vw;
+
+      //left: -120px;
+      //top: 0px;
+      //right: 552px;
+      //bottom: 0px;
+    }
   }
 
   &__text-container {

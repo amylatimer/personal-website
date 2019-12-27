@@ -11,7 +11,7 @@ function App() {
         <Info />
         <div className="project-container">
           <TicksSuck />
-          <TicksSuck />
+          {/* <TicksSuck /> */}
         </div>
 
       </div>

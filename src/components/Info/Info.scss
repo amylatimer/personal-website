@@ -7,6 +7,8 @@
 .info-section {
   width: 100vw;
   height: 100vh;
+  background: #efefef;
+  border-left: 20px solid white;
 
   @include tablet-view {
     width: 40%;

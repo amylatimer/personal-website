@@ -45,5 +45,15 @@ $desk-min-size: 1440px;
   }
 }
 
+@mixin button-styles {
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  background: $brand;
+  padding: 10px 15px;
+  width: 175px;
+  margin-top: 3em;
+}
+
 /* --- Global Colors ---*/
 $brand: pink;

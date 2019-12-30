@@ -17,14 +17,20 @@ class TicksSuck extends React.Component {
                     <div className="project__text-container">
                         <h1 className="project__title project__text">Ticks Suck</h1>
                         <h2 className="project__type project__text">Website</h2>
-                        {/* <p className="project__info project__text">Short Description of the project</p> */}
-                        {/* <p className="project__tech project__text">React, SCSS, Node, Express, Axios, React Router, Dark Sky API</p> */}
                         <Collapsible trigger="Description">
-                            <p>This is a short Project Description.</p>
+                            <p>This application aims to educate users about Lyme Disease in Canada.
+                                An interactive map connects users to resources such as
+                                health care providers and local support groups, and a
+                                dynamic risk assessment tool fetches live data based on
+                                user inputs to determine how high their exposure levels are
+                                to ticks in their area. </p>
                         </Collapsible>
                         <Collapsible trigger="Technologies Used">
                             <p>React, SCSS, Node, Express, Axios, React Router, Dark Sky API</p>
                         </Collapsible>
+                        <a href="">
+                            <button className="project__demo-button">Demo</button>
+                        </a>
 
                     </div>
                 </div>

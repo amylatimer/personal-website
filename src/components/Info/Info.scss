@@ -7,8 +7,6 @@
 .info-section {
   width: 100vw;
   height: 100vh;
-  background: #efefef;
-  border-left: 20px solid white;
 
   @include tablet-view {
     width: 40%;
@@ -16,6 +14,8 @@
   &__container {
     width: 100%;
     height: 100vh;
+    min-height: 400px;
+
     display: flex;
     justify-content: center;
     //background-color: #efefef;
@@ -63,13 +63,8 @@
   }
 
   &__button {
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: none;
-    background: $brand;
-    padding: 10px 15px;
-    width: 175px;
-    //align-self: center;
+    @include button-styles;
+    margin-top: 0;
   }
 }
 

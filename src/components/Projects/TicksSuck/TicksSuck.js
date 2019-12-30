@@ -8,7 +8,7 @@ class TicksSuck extends React.Component {
     state = {}
     render() {
         return (
-            <section className="project">
+            <section className="project project--ts">
                 <div className="project__container">
                     <div className="project__image-container">
                         <img className="project__image--desk" src={desk} alt="" />
@@ -28,8 +28,8 @@ class TicksSuck extends React.Component {
                         <Collapsible trigger="Technologies Used">
                             <p>React, SCSS, Node, Express, Axios, React Router, Dark Sky API</p>
                         </Collapsible>
-                        <a href="">
-                            <button className="project__demo-button">Demo</button>
+                        <a href="www.google.ca" target="blank">
+                            <button className="project__demo-button project--ts__demo-button">Demo</button>
                         </a>
 
                     </div>

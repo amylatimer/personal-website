@@ -1,0 +1,18 @@
+// Digital Futures Scss
+
+@import "../../../styles/base.scss";
+@import "../../../styles/project.scss";
+
+$df-color: rgb(210, 83, 85);
+
+.project--df {
+  border-top: 20px solid $df-color;
+  @include tablet-view {
+    border-top: none;
+    border-left: 20px solid $df-color;
+  }
+
+  &__demo-button {
+    background: $df-color;
+  }
+}

@@ -24,18 +24,18 @@ class Info extends React.Component {
                             communicate.
                         </p>
                         <div className="info-section__icon-wrapper">
-                            <a href="https://linkedin.com/in/amy-latimer" target="_blank">
+                            <a href="https://linkedin.com/in/amy-latimer" target="blank">
                                 <span title="LinkedIn">
                                     <img className="info-section__icon" src={linkedinIcon} alt="linkedin logo" />
                                 </span>
 
                             </a>
-                            <a href="https://github.com/amylatimer" target="_blank">
+                            <a href="https://github.com/amylatimer" target="blank">
                                 <span title="GitHub">
                                     <img className="info-section__icon" src={githubIcon} alt="github logo" />
                                 </span>
                             </a>
-                            <a>
+                            <a href="www.google.ca">
                                 <span title="Resume">
                                     <img className="info-section__icon" src={userIcon} alt="outline of person" />
                                 </span>

@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.scss';
-import Hero from './components/Hero/Hero';
+//import Hero from './components/Hero/Hero';
 import Info from './components/Info/Info';
 import TicksSuck from './components/Projects/TicksSuck/TicksSuck';
+import DigitalFutures from './components/Projects/DigitalFutures/DigitalFutures';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="project-container">
           <TicksSuck />
           {/* <TicksSuck /> */}
+          <DigitalFutures />
         </div>
 
       </div>

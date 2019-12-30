@@ -64,6 +64,7 @@
 
   &__button {
     @include button-styles;
+    background: pink;
     margin-top: 0;
   }
 }

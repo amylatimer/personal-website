@@ -3,42 +3,71 @@
 @import "../../../styles/base.scss";
 @import "../../../styles/project.scss";
 
+//$ts-color: #b3cebf;
+
+// .project--ts {
+//   border-top: 20px solid $ts-color;
+
+//   @include tablet-view {
+//     border-top: none;
+//     border-left: 20px solid $ts-color;
+//   }
+
+//   &__demo-button {
+//     background: $ts-color;
+//   }
+// }
+
 $ts-color: #b3cebf;
 
-.project {
+.project--ts {
+  border-top: 20px solid $ts-color;
   @include tablet-view {
+    border-top: none;
     border-left: 20px solid $ts-color;
-  }
-  &__container {
-  }
-
-  &__image-container {
-  }
-
-  &__image--desk {
-    @include tablet-view {
-    }
-  }
-
-  &__text-container {
-  }
-
-  &__text {
-  }
-
-  &__title {
-  }
-
-  &__type {
-  }
-
-  &__info {
-  }
-
-  &__tech {
   }
 
   &__demo-button {
     background: $ts-color;
   }
 }
+
+// .project {
+//   border-top: 20px solid $ts-color;
+
+//   @include tablet-view {
+//     border-left: 20px solid $ts-color;
+//   }
+//   &__container {
+//   }
+
+//   &__image-container {
+//   }
+
+//   &__image--desk {
+//     @include tablet-view {
+//     }
+//   }
+
+//   &__text-container {
+//   }
+
+//   &__text {
+//   }
+
+//   &__title {
+//   }
+
+//   &__type {
+//   }
+
+//   &__info {
+//   }
+
+//   &__tech {
+//   }
+
+//   &__demo-button {
+//     background: $ts-color;
+//   }
+// }

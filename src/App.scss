@@ -53,3 +53,28 @@
     float: none;
   }
 }
+
+/* 
+* Changing navigation bullets colors 
+*/
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: lightgrey;
+}
+
+// #fp-nav ul li a span,
+// .section1.fp-slidesNav ul li a span {
+//   background: green;
+// }
+
+// #fp-nav ul li a span,
+// .fp-slidesNav ul li a span {
+//   background: red;
+// }
+
+//.fp-viewing-section #fp-nav ul li a span {
+//   background: green;
+// }
+// .fp-viewing-section2 #fp-nav ul li a span {
+//   background: blue;
+// }

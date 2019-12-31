@@ -3,7 +3,7 @@ import './TicksSuck.scss';
 import Collapsible from 'react-collapsible';
 
 import desk from '../../../assets/images/ticksSuck/ts-desk.svg';
-import tablet from '../../../assets/images/ticksSuck/ts-tablet.svg';
+//import tablet from '../../../assets/images/ticksSuck/ts-tablet.svg';
 
 class TicksSuck extends React.Component {
     state = {}

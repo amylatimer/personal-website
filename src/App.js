@@ -4,6 +4,7 @@ import './App.scss';
 import Info from './components/Info/Info';
 import TicksSuck from './components/Projects/TicksSuck/TicksSuck';
 import DigitalFutures from './components/Projects/DigitalFutures/DigitalFutures';
+import FamilyFeud from './components/Projects/FamilyFeud/FamilyFeud';
 
 function App() {
   return (
@@ -12,18 +13,11 @@ function App() {
         <Info />
         <div className="project-container">
           <TicksSuck />
-          {/* <TicksSuck /> */}
           <DigitalFutures />
+          <FamilyFeud />
         </div>
 
       </div>
-      {/* <div className="App">
-        <header className="App-header">
-          <h1>Coming Soon!</h1>
-        </header>
-
-      </div> */}
-      {/* <Hero /> */}
 
 
     </>

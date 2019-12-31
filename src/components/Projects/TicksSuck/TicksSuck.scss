@@ -27,8 +27,60 @@ $ts-color: #b3cebf;
     border-left: 20px solid $ts-color;
   }
 
+  &__image-container {
+    @include tablet-view {
+      position: relative;
+    }
+  }
+
+  &__desk {
+    &:hover {
+      animation: move 1s linear;
+      //z-index: 5;
+    }
+  }
+
+  &__tablet {
+    display: none;
+
+    @include tablet-view {
+      display: initial;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50px;
+      height: 100px;
+      filter: none;
+    }
+  }
+
   &__demo-button {
     background: $ts-color;
+  }
+}
+
+#ts-tablet {
+  display: none;
+
+  @include tablet-view {
+    display: initial;
+    position: absolute;
+    bottom: -70px;
+    left: -50px;
+    //width: 50px;
+    height: 80%;
+    filter: none;
+  }
+}
+
+@keyframes move {
+  from {
+    z-index: 0;
+    transform: scale(1);
+  }
+  to {
+    z-index: 4;
+    transform: scale(1.02);
   }
 }
 

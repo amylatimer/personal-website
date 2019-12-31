@@ -52,6 +52,11 @@ $desk-min-size: 1440px;
   padding: 10px 15px;
   width: 175px;
   margin-top: 3em;
+  font-size: 0.8rem;
+
+  @include tablet-view {
+    font-size: 1rem;
+  }
 }
 
 /* --- Global Colors ---*/

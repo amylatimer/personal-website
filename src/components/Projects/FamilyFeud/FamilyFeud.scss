@@ -1,0 +1,19 @@
+// Family Feud Scss
+
+@import "../../../styles/base.scss";
+@import "../../../styles/project.scss";
+
+$ff-color: rgb(35, 39, 45);
+
+.project--ff {
+  border-top: 20px solid $ff-color;
+  @include tablet-view {
+    border-top: none;
+    border-left: 20px solid $ff-color;
+  }
+
+  &__demo-button {
+    background: $ff-color;
+    color: white;
+  }
+}

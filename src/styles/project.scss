@@ -10,6 +10,9 @@
   align-items: center;
   box-sizing: border-box;
 
+  //transform: translate(0px, 100%);
+  //transition: all 1000ms ease 0s;
+
   //border-top: 20px solid lightgrey;
   padding: 3em 0 3em 0;
 
@@ -34,6 +37,7 @@
 
   &__image--desk {
     width: 80%;
+    filter: drop-shadow(11px 8px 8px lightgrey);
     //box-shadow: 10px 5px 5px #efefef;
 
     @include tablet-view {
@@ -41,6 +45,14 @@
     }
   }
 
+  &__image--tablet {
+    width: 80%;
+    filter: drop-shadow(11px 8px 8px lightgrey);
+
+    @include tablet-view {
+      max-width: 650px;
+    }
+  }
   &__text-container {
     width: 100%;
     margin-top: 5em;
@@ -52,6 +64,10 @@
 
   &__title {
     margin-bottom: 0;
+
+    @include tablet-view {
+      font-size: 1.7rem;
+    }
   }
 
   &__type {
@@ -90,6 +106,10 @@
     font-size: 0.8rem;
     line-height: 20px;
 
+    @include tablet-view {
+      font-size: 0.9rem;
+    }
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -108,6 +128,10 @@
 
   padding: 15px 10px 15px 0;
   color: black;
+
+  @include tablet-view {
+    font-size: 1rem;
+  }
 
   &:after {
     font-family: "FontAwesome";

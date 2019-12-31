@@ -18,7 +18,15 @@ class DigitalFutures extends React.Component {
                         <h1 className="project__title project__text">Digital Futures</h1>
                         <h2 className="project__type project__text">Static Website</h2>
                         <Collapsible trigger="Description">
-                            <p>Short Description about the hackathon day </p>
+                            <p>Digital Futures was built as part of a one-day hackathon at BrainStation.
+                                We were challenged to collaborate with fellow students from both their UX Design
+                                and Data Science programs to build a webpage that visualized insights from a set of
+                                data and was designed to communication information to a target demographic.
+                            </p>
+                            <p> Overall,
+                                we had less than seven hours to design and create an informational and interactive
+                                webpage and presented it to our peers at the end of the day.
+                            </p>
                         </Collapsible>
                         <Collapsible trigger="Technologies Used">
                             <p>React, SCSS</p>

@@ -9,6 +9,8 @@ import TicksSuck from './components/Projects/TicksSuck/TicksSuck';
 import DigitalFutures from './components/Projects/DigitalFutures/DigitalFutures';
 import FamilyFeud from './components/Projects/FamilyFeud/FamilyFeud';
 
+import Width from './components/Width/Width';
+
 const fullpageProps = {
   scrollingSpeed: 1000,
   //loopTop: true,
@@ -21,51 +23,81 @@ const fullpageProps = {
   //sectionsColor: ['transparent', '#000000', 'transparent']
 }
 
-function App() {
-  return (
-    <>
-      <div className="App">
-        <Info />
-        <div className="project-container">
+class App extends React.Component {
 
+  render() {
+    var intViewportWidth = window.innerWidth;
+    //console.log(intViewportWidth);
 
-          {/* <TicksSuck />
-          <DigitalFutures />
-          <FamilyFeud /> */}
+    return (
+      <>
+        <div className="App">
 
+          <Width />
+          {/* {
+            intViewportWidth <= 425 ? (
+              <>
+                <ReactFullpage
+                  {...fullpageProps}
+                  render={() => {
+                    return (
+                      <ReactFullpage.Wrapper>
+                        <div className="section">
+                          <Info />
+                        </div>
+                        <div className="section section1">
+                          <TicksSuck />
+                        </div>
+                        <div className="section section2">
+                          <DigitalFutures />
+                        </div>
+                        <div className="section section3">
+                          <FamilyFeud />
+                        </div>
+                      </ReactFullpage.Wrapper>
+                    );
+                  }}
+                />
+              </>
 
-          <ReactFullpage
-            {...fullpageProps}
-            //scrollingSpeed={1000} /* Options here */
-
-            render={() => {
-              return (
-                <ReactFullpage.Wrapper>
-                  <div className="section section1">
-                    <TicksSuck />
-                    {/* <p>Section 1 (welcome to fullpage.js)</p> */}
-                    {/* <button onClick={() => fullpageApi.moveSectionDown()}>
-                      Click me to move down
-                    </button> */}
+            ) : (
+                <>
+                  <Info />
+                  <div className="project-container">
+                    <ReactFullpage
+                      {...fullpageProps}
+                      render={() => {
+                        return (
+                          <ReactFullpage.Wrapper>
+                            <div className="section section1">
+                              <TicksSuck />
+                            </div>
+                            <div className="section section2">
+                              <DigitalFutures />
+                            </div>
+                            <div className="section section3">
+                              <FamilyFeud />
+                            </div>
+                          </ReactFullpage.Wrapper>
+                        );
+                      }}
+                    />
                   </div>
-                  <div className="section section2">
-                    <DigitalFutures />
-                  </div>
-                  <div className="section section3">
-                    <FamilyFeud />
-                  </div>
-                </ReactFullpage.Wrapper>
-              );
-            }}
+                </>
 
-          />
-        </div>
+              )
+          } */}
 
-      </div>
+        </div> {/* end of App div */}
 
 
-    </>
-  );
+
+      </>
+    );
+  }
+
+
+
 }
 
 export default App;

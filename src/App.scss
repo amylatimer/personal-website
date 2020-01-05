@@ -1,26 +1,3 @@
-// .App {
-//   text-align: center;
-// }
-
-// .App-logo {
-//   height: 40vmin;
-// }
-
-// .App-header {
-//   background-color: #282c34;
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: calc(10px + 2vmin);
-//   color: white;
-// }
-
-// .App-link {
-//   color: #09d3ac;
-// }
-
 @import "./styles/base.scss";
 
 .App {
@@ -31,14 +8,6 @@
     flex-wrap: nowrap;
   }
 }
-
-// .info {
-//   position: fixed;
-//   left: 0px;
-//   top: 0px;
-//   right: 552px;
-//   bottom: 0px;
-// }
 
 .project-container {
   //width: 100vw;
@@ -61,20 +30,3 @@
 .fp-slidesNav ul li a span {
   background: lightgrey;
 }
-
-// #fp-nav ul li a span,
-// .section1.fp-slidesNav ul li a span {
-//   background: green;
-// }
-
-// #fp-nav ul li a span,
-// .fp-slidesNav ul li a span {
-//   background: red;
-// }
-
-//.fp-viewing-section #fp-nav ul li a span {
-//   background: green;
-// }
-// .fp-viewing-section2 #fp-nav ul li a span {
-//   background: blue;
-// }

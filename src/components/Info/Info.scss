@@ -64,15 +64,10 @@
 
   &__button {
     @include button-styles;
-    background: pink;
+    background: lightpink;
     margin-top: 0;
   }
 }
-
-// h1 {
-//   font-family: "Lato", sans-serif;
-//   font-weight: 700;
-// }
 
 .bold {
   font-weight: bold;

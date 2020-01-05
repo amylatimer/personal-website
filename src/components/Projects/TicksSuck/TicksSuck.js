@@ -33,9 +33,9 @@ class TicksSuck extends React.Component {
                         <Collapsible trigger="Technologies Used">
                             <p>React, SCSS, Node, Express, Axios, React Router, Dark Sky API</p>
                         </Collapsible>
-                        {/* <a href="www.google.ca" target="blank">
-                            <button className="project__demo-button project--ts__demo-button">Demo</button>
-                        </a> */}
+                        {/* <a href="www.google.ca" target="blank"> */}
+                        <button className="project__demo-button project--ts__demo-button">Coming Soon!</button>
+                        {/* </a> */}
 
                     </div>
                 </div>

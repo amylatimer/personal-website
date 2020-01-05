@@ -44,7 +44,6 @@ export default function MyComponent() {
     });
     return (
         <>
-            {/* Rendered at {dimensions.width} x {dimensions.height} */}
             {
                 dimensions.width <= 768 ? (
                     <>

@@ -5,6 +5,9 @@ import linkedinIcon from '../../assets/icons/linkedin.svg';
 import githubIcon from '../../assets/icons/github.svg';
 import userIcon from '../../assets/icons/user.svg';
 
+
+//import doc from '../../assets/files/amy_latimer_website_resume.pdf'
+
 class Info extends React.Component {
     state = {}
     render() {
@@ -12,7 +15,8 @@ class Info extends React.Component {
             <section className="info-section">
                 <div className="info-section__container">
                     <div className="info-section__text-container">
-                        <h1 className="info-section__title">Developer.
+                        <h1 className="info-section__title">
+                            Developer.
                             Thinker.
                             Maker.
 
@@ -35,14 +39,14 @@ class Info extends React.Component {
                                     <img className="info-section__icon" src={githubIcon} alt="github logo" />
                                 </span>
                             </a>
-                            <a href="www.google.ca">
+                            <a href="https://drive.google.com/file/d/16IwnhrJzF9-woNcTwXepVxWIu52ZHtVv/view?usp=sharing" target="blank">
                                 <span title="Resume">
                                     <img className="info-section__icon" src={userIcon} alt="outline of person" />
                                 </span>
                             </a>
 
                         </div>
-                        <a href="mailto:emailh@example.com">
+                        <a href="mailto:hello@amylatimer.com">
                             <button className="info-section__button">Say Hello!</button>
                         </a>
 

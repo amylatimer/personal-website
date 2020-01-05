@@ -10,15 +10,10 @@
   align-items: center;
   box-sizing: border-box;
 
-  //transform: translate(0px, 100%);
-  //transition: all 1000ms ease 0s;
-
-  //border-top: 20px solid lightgrey;
   padding: 3em 0 3em 0;
 
   @include tablet-view {
     border-top: none;
-    //border-left: 20px solid lightgrey;
   }
   &__container {
     box-sizing: content-box;
@@ -38,7 +33,6 @@
   &__image--desk {
     width: 80%;
     filter: drop-shadow(11px 8px 8px lightgrey);
-    //box-shadow: 10px 5px 5px #efefef;
 
     @include tablet-view {
       max-width: 650px;

@@ -2,7 +2,8 @@ import React from 'react';
 import './FamilyFeud.scss';
 import Collapsible from 'react-collapsible';
 
-import tablet from '../../../assets/images/familyFeud/ff-tablet.svg';
+//import tablet from '../../../assets/images/familyFeud/ff-tablet.svg';
+import tabletNew from '../../assets/images/familyFeud/ff-new.svg';
 
 class FamilyFeud extends React.Component {
     state = {}
@@ -12,7 +13,7 @@ class FamilyFeud extends React.Component {
                 <div className="project__container">
                     <div className="project__image-container">
                         {/* <img className="project__image--desk" src={desk} alt="" /> */}
-                        <img className="project__image--tablet" src={tablet} alt="" />
+                        <img className="project__image--tablet" src={tabletNew} alt="" />
                     </div>
                     <div className="project__text-container">
                         <h1 className="project__title project__text">Family Feud</h1>
@@ -26,9 +27,9 @@ class FamilyFeud extends React.Component {
                         <Collapsible trigger="Technologies Used">
                             <p>React, SCSS, Node, Express, Axios, React Router</p>
                         </Collapsible>
-                        {/* <a href="www.google.ca" target="blank" > */}
-                        <button className="project__demo-button project--ff__demo-button">Coming Soon!</button>
-                        {/* </a> */}
+                        <a href="https://family-feud.netlify.com/" target="blank" >
+                            <button className="project__demo-button project--ff__demo-button">Demo</button>
+                        </a>
 
                     </div>
                 </div>

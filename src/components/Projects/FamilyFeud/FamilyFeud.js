@@ -2,8 +2,8 @@ import React from 'react';
 import './FamilyFeud.scss';
 import Collapsible from 'react-collapsible';
 
-//import tablet from '../../../assets/images/familyFeud/ff-tablet.svg';
-import tabletNew from '../../assets/images/familyFeud/ff-new.svg';
+import tabletNew from '../../../assets/images/familyFeud/ff-new.png';
+//import tabletNew from '../../assets/images/familyFeud/ff-new.svg';
 
 class FamilyFeud extends React.Component {
     state = {}
